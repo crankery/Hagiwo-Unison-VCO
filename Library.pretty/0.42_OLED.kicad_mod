@@ -1,0 +1,185 @@
+(footprint "0.42_OLED"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6 3.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b9fca14e-969f-44d6-bacd-0d87042d83e2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "0.42_OLED"
+		(at 6 16.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2dc34ff1-438b-4694-b09c-5688f53b4a43")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3c4324e-0ad9-4420-8ea1-7d2c692120b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f9f16f3-fb23-4dba-b2ce-8501e404f8ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6b430b4-4583-416b-a9d4-b5b523bb7aee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 0)
+		(end 12 17)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8055001e-181a-4e50-8865-d651019c4443")
+	)
+	(fp_rect
+		(start 0.9 3.88)
+		(end 11.1 10.06)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3c13f952-95d1-4ac5-a8a8-1b9100b16acd")
+	)
+	(fp_rect
+		(start 1.4 4.38)
+		(end 10.6 9.56)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e518342e-1bb6-48bc-9599-5854479573c9")
+	)
+	(fp_circle
+		(center 1.5 15.5)
+		(end 2.3 15.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "86fbf419-3c06-4ffc-b554-008feeef3263")
+	)
+	(fp_circle
+		(center 10.5 15.5)
+		(end 11.3 15.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "f5956c5e-e342-471c-ac5c-6a640ff4ae79")
+	)
+	(pad "1" thru_hole oval
+		(at 2.19 1.5 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7c0192af-32e9-469f-8978-5fa32679a4b1")
+	)
+	(pad "2" thru_hole oval
+		(at 4.73 1.5 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88f37da7-aec2-4310-8ab8-fddb7d84353a")
+	)
+	(pad "3" thru_hole oval
+		(at 7.27 1.5 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9acc131-dd8b-4621-a175-9c6797a5e257")
+	)
+	(pad "4" thru_hole oval
+		(at 9.81 1.5 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a694ab3a-8eff-474e-8db9-99762cdd1b23")
+	)
+	(group ""
+		(uuid "36149292-cf63-483f-be0c-5bd93371cf56")
+		(members "7c0192af-32e9-469f-8978-5fa32679a4b1" "88f37da7-aec2-4310-8ab8-fddb7d84353a"
+			"a694ab3a-8eff-474e-8db9-99762cdd1b23" "f9acc131-dd8b-4621-a175-9c6797a5e257"
+		)
+	)
+	(model "${KIPRJMOD}/3dshapes/display.step"
+		(offset
+			(xyz 0 0 7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 2.25 -1.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
