@@ -11,6 +11,4 @@ The PCB is 100x30mm so it should be pretty darned cheap to order from one of the
 
 I added a tiny OLED display module to show the currently selected waveform. The display module is available from all the usual places with with search terms like "0.42" 0.42 Inch White OLED Display LCD Module 72X40 Serial Screen White Color I2C IIC/SPI Interface SSD1306". I'm sure there's an original manufacturer of these things but I can't figure it out. The 4 pin I2C SSD1306 version that looks like this:
 
-![0.42" OLED](./docs/042-OLED.png)
-
-![0.42" OLED Drawing](./docs/042-OLED-drawing.png)
+<img src="./docs/042-OLED.png" height="250"><img src="./docs/042-OLED-drawing.png" height="250">
