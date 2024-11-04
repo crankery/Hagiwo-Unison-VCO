@@ -1781,6 +1781,93 @@
 				)
 			)
 		)
+		(symbol "PCM_4ms_Power-symbol:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:AMS1117-5.0"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2989,10 +3076,16 @@
 		(uuid "42b970aa-6b3c-4add-88cc-033af6e8331b")
 	)
 	(junction
-		(at 42.545 159.385)
+		(at 31.75 159.385)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a77535a-9fa5-4504-91fe-e00b585f57d0")
+	)
+	(junction
+		(at 55.245 146.685)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "539cdb86-103b-4bcd-98b3-0e41382dd21b")
 	)
 	(junction
 		(at 163.195 114.3)
@@ -3055,6 +3148,12 @@
 		(uuid "8bb4acd8-7c91-4ce6-a30d-7957ab18b179")
 	)
 	(junction
+		(at 55.245 154.305)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf5d0be-35a8-40f3-8011-189fbe02dfe8")
+	)
+	(junction
 		(at 67.31 146.685)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3067,16 +3166,10 @@
 		(uuid "96136d44-c9bf-4ae8-b746-7e8a788651f6")
 	)
 	(junction
-		(at 42.545 161.925)
+		(at 31.75 161.925)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "961e8ff2-4dec-49ee-831e-0de954d6b1c1")
-	)
-	(junction
-		(at 117.475 141.605)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9645136a-f364-4860-904d-0eb924ee0683")
 	)
 	(junction
 		(at 245.745 133.985)
@@ -3103,7 +3196,7 @@
 		(uuid "a8d66a79-9e5f-477a-99fd-ad3dfe21da03")
 	)
 	(junction
-		(at 42.545 156.845)
+		(at 31.75 156.845)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abfcfec3-0945-4568-a6f1-c3fc6e2cc9ba")
@@ -3127,10 +3220,22 @@
 		(uuid "c04bb2c3-e84a-4c08-a2fe-0605e7133a00")
 	)
 	(junction
+		(at 55.245 169.545)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c054c561-319f-43ad-aafd-662b34f0f154")
+	)
+	(junction
 		(at 72.39 98.425)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4fe3efd-a068-4854-8194-734415af4056")
+	)
+	(junction
+		(at 83.185 141.605)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8fdfbd7-6da7-4581-ad69-2d7225d01864")
 	)
 	(junction
 		(at 220.345 126.365)
@@ -3157,7 +3262,7 @@
 		(uuid "cf9b9f33-b0a9-4892-a11b-64e8b0ee139f")
 	)
 	(junction
-		(at 42.545 169.545)
+		(at 31.75 169.545)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de8f4205-166e-403c-96a6-865c05471682")
@@ -3175,19 +3280,13 @@
 		(uuid "f4af22b9-3b99-4eaa-b952-2c4dc3efe12e")
 	)
 	(junction
-		(at 74.295 169.545)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9addf04-9076-4b4d-a2c7-c62368e0220d")
-	)
-	(junction
-		(at 42.545 154.305)
+		(at 31.75 154.305)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fccab7de-c17f-4738-977e-28212c20c1a5")
 	)
 	(junction
-		(at 42.545 146.685)
+		(at 31.75 146.685)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd9d74fe-2c1e-444f-bc9c-267e10c0dfba")
@@ -3218,9 +3317,13 @@
 		(at 53.34 95.885)
 		(uuid "867ccdcd-d09a-432c-8b37-728dc6ad8b9e")
 	)
+	(no_connect
+		(at 70.485 58.42)
+		(uuid "e8614b9d-9a85-4a69-8030-77a82bb1eef7")
+	)
 	(wire
 		(pts
-			(xy 42.545 154.305) (xy 42.545 156.845)
+			(xy 31.75 154.305) (xy 31.75 156.845)
 		)
 		(stroke
 			(width 0)
@@ -3247,6 +3350,26 @@
 			(type default)
 		)
 		(uuid "04805584-5e10-40d6-98b7-6a2b78f90d40")
+	)
+	(wire
+		(pts
+			(xy 55.245 169.545) (xy 66.675 169.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061328a1-3e0c-4be7-8cb6-85f09d6af722")
+	)
+	(wire
+		(pts
+			(xy 55.245 146.685) (xy 67.31 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ec6428-10e5-42d9-b500-9fcd2f1380ff")
 	)
 	(wire
 		(pts
@@ -3340,16 +3463,6 @@
 	)
 	(wire
 		(pts
-			(xy 51.435 169.545) (xy 42.545 169.545)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "171a8b1a-0864-43cf-8282-de83e5894bee")
-	)
-	(wire
-		(pts
 			(xy 164.465 31.115) (xy 164.465 26.67)
 		)
 		(stroke
@@ -3420,16 +3533,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.055 146.685) (xy 67.31 146.685)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "274051ea-c781-4dec-a90c-8c1c29c06816")
-	)
-	(wire
-		(pts
 			(xy 90.805 38.1) (xy 94.615 38.1)
 		)
 		(stroke
@@ -3460,7 +3563,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 146.685) (xy 42.545 149.225)
+			(xy 31.75 146.685) (xy 31.75 149.225)
 		)
 		(stroke
 			(width 0)
@@ -3550,7 +3653,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 167.005) (xy 42.545 169.545)
+			(xy 31.75 167.005) (xy 31.75 169.545)
 		)
 		(stroke
 			(width 0)
@@ -3590,7 +3693,17 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 146.685) (xy 51.435 146.685)
+			(xy 49.53 146.685) (xy 55.245 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b479ee6-6f4a-47d5-8663-3d50c562e26e")
+	)
+	(wire
+		(pts
+			(xy 31.75 146.685) (xy 41.91 146.685)
 		)
 		(stroke
 			(width 0)
@@ -3610,13 +3723,23 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 151.765) (xy 42.545 154.305)
+			(xy 31.75 151.765) (xy 31.75 154.305)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "61716c4f-5460-487d-973b-9dc8fda61b74")
+	)
+	(wire
+		(pts
+			(xy 31.75 169.545) (xy 41.91 169.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635425c6-844e-4655-bfaf-ee8a70d35f5c")
 	)
 	(wire
 		(pts
@@ -3670,7 +3793,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.055 169.545) (xy 66.675 169.545)
+			(xy 49.53 169.545) (xy 55.245 169.545)
 		)
 		(stroke
 			(width 0)
@@ -3710,7 +3833,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 169.545) (xy 74.295 169.545)
+			(xy 66.675 169.545) (xy 87.63 169.545)
 		)
 		(stroke
 			(width 0)
@@ -3720,17 +3843,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 169.545) (xy 87.63 169.545)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "939319bf-a41a-4cef-9b29-f8436e9fcc0d")
-	)
-	(wire
-		(pts
-			(xy 42.545 161.925) (xy 42.545 164.465)
+			(xy 31.75 161.925) (xy 31.75 164.465)
 		)
 		(stroke
 			(width 0)
@@ -3750,7 +3863,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 154.305) (xy 67.31 154.305)
+			(xy 31.75 154.305) (xy 55.245 154.305)
 		)
 		(stroke
 			(width 0)
@@ -3870,7 +3983,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 156.845) (xy 42.545 159.385)
+			(xy 31.75 156.845) (xy 31.75 159.385)
 		)
 		(stroke
 			(width 0)
@@ -3970,6 +4083,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.245 154.305) (xy 67.31 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b6c0c2-22cf-4147-a8d6-320f7d14fce7")
+	)
+	(wire
+		(pts
 			(xy 174.625 105.41) (xy 174.625 101.6)
 		)
 		(stroke
@@ -4010,7 +4133,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 159.385) (xy 42.545 161.925)
+			(xy 31.75 159.385) (xy 31.75 161.925)
 		)
 		(stroke
 			(width 0)
@@ -5016,16 +5139,15 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 74.295 169.545 0)
+		(at 55.245 169.545 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1d7112aa-84f9-4acc-a87d-2cc2e29848ca")
 		(property "Reference" "#PWR01"
-			(at 74.295 173.355 0)
+			(at 55.245 173.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,7 +5156,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 74.295 165.1 0)
+			(at 55.245 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.295 169.545 0)
+			(at 55.245 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.295 169.545 0)
+			(at 55.245 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +5182,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 74.295 169.545 0)
+			(at 55.245 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,6 +5470,72 @@
 			(project "Hagiwo-XIAO-VCO"
 				(path "/20c327b8-f8c6-486c-8ef9-9806b2881e2f"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
+		(at 55.245 146.685 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2df42031-7043-4105-9b1f-09591f8824e6")
+		(property "Reference" "#FLG01"
+			(at 55.245 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.245 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.245 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.245 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.245 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d538fc2f-878e-4410-b06c-771b989ad994")
+		)
+		(instances
+			(project ""
+				(path "/20c327b8-f8c6-486c-8ef9-9806b2881e2f"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6075,7 +6263,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAT43W-V")
-		(at 55.245 146.685 0)
+		(at 45.72 146.685 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6083,7 +6271,7 @@
 		(dnp no)
 		(uuid "4f3aca98-4136-4bad-896f-213d7994ed3c")
 		(property "Reference" "D5"
-			(at 54.9275 140.335 0)
+			(at 45.4025 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +6279,7 @@
 			)
 		)
 		(property "Value" "BAT43"
-			(at 54.9275 142.875 0)
+			(at 45.4025 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +6287,7 @@
 			)
 		)
 		(property "Footprint" "Library:D_SOD-123"
-			(at 55.245 151.13 0)
+			(at 45.72 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,7 +6296,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
-			(at 55.245 146.685 0)
+			(at 45.72 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6305,7 @@
 			)
 		)
 		(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
-			(at 55.245 146.685 0)
+			(at 45.72 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,6 +7076,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 83.185 141.605 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6286549e-bd8c-4403-b2c8-e0f6276d13da")
+		(property "Reference" "#PWR012"
+			(at 83.185 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 83.185 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.185 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.185 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 83.185 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "004de703-1f2b-43d5-b221-9f36e02693d7")
+		)
+		(instances
+			(project "Hagiwo-Unison-VCO"
+				(path "/20c327b8-f8c6-486c-8ef9-9806b2881e2f"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAT43W-V")
 		(at 245.745 122.555 270)
 		(unit 1)
@@ -6949,6 +7202,72 @@
 			(project "Hagiwo-XIAO-VCO"
 				(path "/20c327b8-f8c6-486c-8ef9-9806b2881e2f"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
+		(at 55.245 154.305 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "677939fb-add6-47c4-a703-314dfbe38874")
+		(property "Reference" "#FLG02"
+			(at 55.245 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.245 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.245 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.245 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.245 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8421788-0ba3-4f9f-81a0-61dc84bf9dd6")
+		)
+		(instances
+			(project "Hagiwo-Unison-VCO"
+				(path "/20c327b8-f8c6-486c-8ef9-9806b2881e2f"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -7804,7 +8123,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 67.31 146.685 0)
+		(at 55.245 146.685 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7813,7 +8132,7 @@
 		(fields_autoplaced yes)
 		(uuid "97a827b4-a9da-40e2-abca-f76e1db47dc6")
 		(property "Reference" "#PWR03"
-			(at 67.31 150.495 0)
+			(at 55.245 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7822,7 +8141,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 67.31 142.24 0)
+			(at 55.245 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7830,7 +8149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 146.685 0)
+			(at 55.245 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7839,7 +8158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 146.685 0)
+			(at 55.245 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7848,7 +8167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 67.31 146.685 0)
+			(at 55.245 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,7 +8818,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
-		(at 37.465 156.845 0)
+		(at 26.67 156.845 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8509,7 +8828,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6a9b0ed-4574-4752-a205-7922ff110984")
 		(property "Reference" "J3"
-			(at 37.465 140.97 0)
+			(at 26.67 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8517,7 +8836,7 @@
 			)
 		)
 		(property "Value" "Eurorack"
-			(at 37.465 143.51 0)
+			(at 26.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8525,7 +8844,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
-			(at 37.465 156.845 0)
+			(at 26.67 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8534,7 +8853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 37.465 156.845 0)
+			(at 26.67 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8543,7 +8862,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 37.465 156.845 0)
+			(at 26.67 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8726,7 +9045,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAT43W-V")
-		(at 55.245 169.545 0)
+		(at 45.72 169.545 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8735,7 +9054,7 @@
 		(dnp no)
 		(uuid "bb4c6736-84aa-4adc-b2d5-433755d15ceb")
 		(property "Reference" "D6"
-			(at 55.5625 163.195 0)
+			(at 46.0375 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +9062,7 @@
 			)
 		)
 		(property "Value" "BAT43"
-			(at 55.5625 165.735 0)
+			(at 46.0375 165.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8751,7 +9070,7 @@
 			)
 		)
 		(property "Footprint" "Library:D_SOD-123"
-			(at 55.245 173.99 0)
+			(at 45.72 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +9079,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
-			(at 55.245 169.545 0)
+			(at 45.72 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,7 +9088,7 @@
 			)
 		)
 		(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
-			(at 55.245 169.545 0)
+			(at 45.72 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9557,6 +9876,72 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
+		(at 55.245 169.545 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de91d670-97f3-4067-8b0a-20ac7a6abcdc")
+		(property "Reference" "#FLG03"
+			(at 55.245 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.245 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.245 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.245 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.245 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710b0bbc-efd2-478e-9d8b-7acf0a8847cb")
+		)
+		(instances
+			(project "Hagiwo-Unison-VCO"
+				(path "/20c327b8-f8c6-486c-8ef9-9806b2881e2f"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 169.545 133.985 90)
 		(unit 1)
@@ -9619,72 +10004,6 @@
 			(project "Hagiwo-XIAO-VCO"
 				(path "/20c327b8-f8c6-486c-8ef9-9806b2881e2f"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 117.475 141.605 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8449cb1-7d6c-45e2-8f3d-8213855d8511")
-		(property "Reference" "#PWR012"
-			(at 117.475 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 117.475 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 117.475 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 117.475 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 117.475 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38409f11-e06a-40c0-9429-26db46614506")
-		)
-		(instances
-			(project "Hagiwo-XIAO-VCO"
-				(path "/20c327b8-f8c6-486c-8ef9-9806b2881e2f"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
