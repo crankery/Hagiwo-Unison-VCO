@@ -12,3 +12,17 @@ The PCB is 100x30mm so it should be pretty darned cheap to order from one of the
 I added a tiny OLED display module to show the currently selected waveform. The display module is available from all the usual places with with search terms like "0.42" 0.42 Inch White OLED Display LCD Module 72X40 Serial Screen White Color I2C IIC/SPI Interface SSD1306". I'm sure there's an original manufacturer of these things but I can't figure it out. The 4 pin I2C SSD1306 version that looks like this:
 
 <img src="./docs/042-OLED.png" height="250"><img src="./docs/042-OLED-drawing.png" height="250">
+
+TODO: make incredibly insightful comments about stuff here
+
+## Main Board
+
+Here's some renderings of this thing. I'll take pictures of it when I actually build it.
+
+<img src="./docs/Front.png" height="500"><img src="./docs/Back.png" height="500">
+
+## Front Panel
+
+I created a EuroRack 6p front panel for this in KiCad. Which is weird but hey. I don't want to pay for aluminum panels.
+
+<img src="./docs/FrontPanel.png" height="500">
