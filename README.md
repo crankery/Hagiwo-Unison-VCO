@@ -23,6 +23,6 @@ Here's some renderings of this thing. I'll take pictures of it when I actually b
 
 ## Front Panel
 
-I created a EuroRack 6p front panel for this in KiCad. Which is weird but hey. I don't want to pay for aluminum panels.
+I created a Eurorack 6hp front panel for this in KiCad. Which is weird but hey. I don't want to pay for aluminum panels.
 
 <img src="./docs/FrontPanel.png" height="500">
